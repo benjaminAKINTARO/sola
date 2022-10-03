@@ -7,9 +7,20 @@
   font-size: 2rem;
   text-transform: capitalize;
 }
+
+.head-3 {
+  margin-top: 3rem;
+  color: #c2c2ca;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
 .number {
   color: $color-primary;
   font-size: 2rem;
+}
+.letter {
+  color: $color-tetiary-2;
 }
 
 .link-1 {
@@ -20,9 +31,12 @@
 ///////////////////////////////////////////@at-root
 ///
 .btn-1 {
-  padding: 1rem 2rem;
+  padding: 1.5rem 2.5rem;
   background-color: $color-tetiary;
   border-radius: 1rem;
   border: none;
   font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-left: 4rem;
+  margin-top: 1rem;
 }

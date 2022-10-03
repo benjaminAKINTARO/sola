@@ -29,8 +29,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+.body .profile .fa-camera {
+  background-image: linear-gradient(#d3014e, #30302e);
+  color: #f1f1f1;
+  padding: 1.4rem;
+  border-radius: 50%;
+  margin-top: -1.6rem;
+}
 .body .profile-list {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .body .profile-item {
   font-size: 2rem;
@@ -51,20 +61,33 @@ body {
   padding: 1rem 1.2rem;
   border-radius: 1rem;
 }
+.body .profile-link-2 {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
 .body .profile-img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 20rem;
-  width: 15rem;
+  height: 17rem;
+  width: 17rem;
   border-radius: 3rem;
 }
 .body .profile .user-name {
   margin-top: 2rem;
 }
+.body .profile .sign-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #93929c;
+}
 .body .question {
   margin-left: 10rem;
   border-radius: 2rem;
-  box-shadow: 0 0.3rem 0.4rem #333333;
+  box-shadow: 0 0.3rem 0.4rem rgba(182, 181, 181, 0.9);
   width: 70%;
   padding: 0.5rem;
 }
@@ -89,12 +112,13 @@ body {
 }
 .body .question .answer {
   border: none;
-  width: 100%;
-  margin-top: 2rem;
+  width: 90%;
+  margin-top: 3rem;
   padding: 1rem;
-  height: 4rem;
+  height: 5rem;
   background-color: #f1f3fd;
-  border-radius: 1rem;
+  border-radius: 2rem;
+  margin-left: 4rem;
 }
 .body .question .options {
   margin-top: 2rem;
@@ -110,9 +134,20 @@ body {
   text-transform: capitalize;
 }
 
+.head-3 {
+  margin-top: 3rem;
+  color: #c2c2ca;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
 .number {
   color: #d3014e;
   font-size: 2rem;
+}
+
+.letter {
+  color: #002851;
 }
 
 .link-1 {
@@ -121,11 +156,14 @@ body {
 }
 
 .btn-1 {
-  padding: 1rem 2rem;
+  padding: 1.5rem 2.5rem;
   background-color: #f1f3fd;
   border-radius: 1rem;
   border: none;
   font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-left: 4rem;
+  margin-top: 1rem;
 }
 
 .navigation {
