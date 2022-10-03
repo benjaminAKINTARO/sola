@@ -2,7 +2,27 @@
   font-size: 2rem;
   text-transform: capitalize;
 }
+
+.head-2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.number {
+  color: $color-primary;
+  font-size: 2rem;
+}
+
 .link-1 {
   text-decoration: none;
   color: $color-text;
+}
+
+///////////////////////////////////////////@at-root
+///
+.btn-1 {
+  padding: 1rem 2rem;
+  background-color: $color-tetiary;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.3rem;
 }
