@@ -1,0 +1,25 @@
+body,
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 52.5%;
+}
+body {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+$color-primary: #d3014e;
+$color-primary-2: #800165;
+$color-secondary: #333333;
+$color-secondary-2: #babcca;
+$color-tetiary: #8700aa;
+$color-tetiary-2: #5f0e9f;
+$color-text: #f1f1f1;

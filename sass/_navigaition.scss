@@ -1,0 +1,12 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: $color-secondary;
+  color: $color-text;
+  .logo {
+    object-fit: cover;
+    height: 5rem;
+  }
+}

@@ -1,0 +1,55 @@
+body,
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 52.5%;
+}
+
+body {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.body {
+  padding: 15rem;
+  display: flex;
+}
+.body .profile {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.body .profile-list {
+  margin-top: 2rem;
+}
+
+.head-1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.link-1 {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: #333333;
+  color: #f1f1f1;
+}
+.navigation .logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 5rem;
+}/*# sourceMappingURL=main.css.map */

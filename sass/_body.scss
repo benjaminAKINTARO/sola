@@ -1,0 +1,13 @@
+.body {
+  padding: 15rem;
+  display: flex;
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    &-list {
+      margin-top: 2rem;
+    }
+  }
+}
