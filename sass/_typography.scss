@@ -40,3 +40,27 @@
   margin-left: 4rem;
   margin-top: 1rem;
 }
+
+.btn-2 {
+  padding: 2rem 5rem;
+  background-color: #066aef;
+  color: $color-text;
+  display: inline-block;
+  border: none;
+  margin-left: 40%;
+  border-radius: 1rem;
+  margin-bottom: -2.2rem;
+}
+
+///icon
+.check-1 {
+  padding: 0.5rem;
+  background-image: linear-gradient($color-primary, $color-primary-2);
+  color: $color-text;
+  border-radius: 50%;
+  margin-left: 97%;
+}
+
+.icon-2 {
+  color: #c2c2ca;
+}
